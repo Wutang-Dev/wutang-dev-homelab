@@ -7,7 +7,7 @@ mkdir # create directory
 touch # create empty file
 
 ## Permisions 
-lis -l # long listing with permisions
+ls -l # long listing with permisions
 chmod  # change file permisions
 chmod +x # make file executable 
 chmod -u -w #remove write from owner
