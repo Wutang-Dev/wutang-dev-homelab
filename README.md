@@ -4,7 +4,7 @@ Private homelab project built using WSL2,Docker, and Tailscaile.
 Documenting deployments, networking, and DevOps learning
 
 ## Environment
-- Host: Ryzen 3600 workstation
+- Host: Ryzen 3600 workstation (wutang-dev(machine name)
 - OS : Windows 11 + WLS2
 - Networking: Pi hole + Tailacale Integration
 - Access: Private LAN + remote Tailscale
