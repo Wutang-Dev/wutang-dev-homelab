@@ -3,25 +3,25 @@
 ## Navigation Commands
 
 pwd
-- Print working directory
+-Print working directory
 
 ls
-- List files in current directory
+-List files in current directory
 
 ls -la
-- List all files (including hidden) with detailed view
+-List all files (including hidden) with detailed view
 
 cd /
-- Move to root directory
+-Move to root directory
 
 cd ~
-- Move to home directory
+-Move to home directory
 
 cd <folder>
-- Change into a directory
+-Change into a directory
 
 cd ..
-- Move up one directory
+-Move up one directory
 
 
 ## File & Directory Management

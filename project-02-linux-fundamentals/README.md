@@ -1,4 +1,5 @@
-#Project 02 - Linux Fundamentals
+## Project 02 - Linux Fundamentals
+
 This project focusses on building strong Linux command-line foundations.
 Environment: Ubuntu 24.04 LTS (WL2)
 
