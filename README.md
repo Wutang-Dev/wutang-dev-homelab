@@ -25,6 +25,7 @@ Documenting deployments, networking, and DevOps learning
     - Deployed nginx container mapped to 8080
     - Configured Git + SSH keys for GitHub
     - Created private repo + intial commit
+    - Started learning Linux 
    
     ## Future Work / TODO
     - LAN + Tailscale container access testing
