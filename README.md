@@ -28,7 +28,17 @@ Documenting deployments, networking, and DevOps learning
     
     **2026-01-22**
     - Started learning Linux
-   
+**2026-01-24**
+- Repurposed MacBook into Ubuntu 24.04 DevOps node
+- Configured Wi-Fi networking and enabled SSH
+- Installed and joined device to Tailscale tailnet
+- Verified private access to Pi-hole admin dashboard
+- Verified Jellyfin access over tailnet
+- Installed Google Chrome for browser-based labs
+- Generated and configured GitHub SSH keys on Ubuntu
+- Cloned wutang-dev repository onto the DevOps node
+- Created and documented Project 05 – Ubuntu DevOps node setup
+	   
     ## Future Work / TODO
     - LAN + Tailscale container access testing
     - Migrate pi-hole into docker
