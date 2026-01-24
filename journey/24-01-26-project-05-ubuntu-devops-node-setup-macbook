@@ -1,0 +1,40 @@
+# 24-01-26 – Journey – Ubuntu DevOps Node Setup (MacBook)
+
+## Summary
+Today I repurposed an old MacBook into a dedicated Ubuntu-based DevOps node. The focus of the session was not application development, but infrastructure setup, secure access, and environment consistency across my lab.
+
+This machine will act as a portable DevOps control node alongside my existing WSL2 and Windows environments.
+
+## What I Worked On
+- Installed Ubuntu Desktop on repurposed MacBook hardware
+- Configured networking over Wi-Fi
+- Enabled and verified SSH access
+- Installed Tailscale and joined the device to my existing tailnet
+- Verified private network access to internal services:
+  - Pi-hole admin dashboard
+  - Jellyfin media server
+- Installed Google Chrome to support browser-based labs and documentation
+- Generated GitHub SSH keys on the Ubuntu node
+- Successfully authenticated to GitHub over SSH
+- Cloned my `wutang-dev` repository onto the machine
+- Created and pushed Project 05 documenting the setup
+
+## What I Learned
+- Context (current working directory) matters a lot when working with Git
+- SSH key files should never be executed directly — they are handled by the SSH agent
+- Tailscale provides a clean way to access internal services without exposing ports
+- Treating setup as a first-class project keeps my learning organised and reviewable
+- Splitting infrastructure setup from service deployment (Nginx later) makes projects clearer
+
+## What Challenged Me
+- Momentary confusion when Git commands failed due to being in the wrong directory
+- Understanding why SSH keys return “permission denied” when run directly
+- Slowing down instead of forcing commands helped avoid mistakes
+
+## Outcome
+By the end of the session, the Ubuntu MacBook was fully integrated into my lab:
+- Secure access working
+- Services reachable over the private network
+- GitHub workflow consistent with my other environments
+
+This feels like a solid foundation for future DevOps, container, and cloud projects.
