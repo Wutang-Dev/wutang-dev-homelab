@@ -28,6 +28,8 @@ Documenting deployments, networking, and DevOps learning
     
     **2026-01-22**
     - Started learning Linux
+ 
+      
 	**2026-01-24**
 	- Repurposed MacBook into Ubuntu 24.04 DevOps node
 	- Configured Wi-Fi networking and enabled SSH
