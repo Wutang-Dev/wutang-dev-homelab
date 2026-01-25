@@ -40,6 +40,13 @@ Documenting deployments, networking, and DevOps learning
 	- Generated and configured GitHub SSH keys on Ubuntu
 	- Cloned wutang-dev repository onto the DevOps node
 	- Created and documented Project 05 – Ubuntu DevOps node setup
+ 
+   **2026-01-25**
+   - Completed Project 06 – Nginx on MacBook
+   - Installed and validated Nginx service
+   - Enabled UFW and configured web firewall rules
+   - Verified HTTP access using curl
+
 	   
     ## Future Work / TODO
     - LAN + Tailscale container access testing
