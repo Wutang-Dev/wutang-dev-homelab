@@ -54,3 +54,6 @@ Documenting deployments, networking, and DevOps learning
     - Explore self-hoting media stak (Jellyfin, ect)
     - Architecture diagrams + Topology notes
     - Automation + SCripts + deployment workflow 
+
+
+
