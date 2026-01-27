@@ -1,5 +1,5 @@
-# 2026-01-27 – Project 08 – Nginx HTTPS (Self-Signed)
----
+# 2026-01-27 – Project 08 – Nginx HTTPS (Self-Signed) ---
+
 
 ## Overview
 
