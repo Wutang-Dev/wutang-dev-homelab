@@ -1,58 +1,52 @@
-# 22-01-26 — Project 03 — Linux Filesystem Awareness
+# 2026-01-27 – Project 08 – Nginx HTTPS (Self-Signed)
 
 ## Summary
--Today I continued building Linux fundamentals with a focus on navigating the filesystem and understanding directory structure.
 
--I created Project 03 and practiced moving around the terminal using `cd`, `ls`, and relative paths.
+Today I configured HTTPS on Nginx using a self-signed SSL certificate on my Ubuntu MacBook.
 
-## What I Practiced
-- Navigating directories using `cd`
-- Moving up one directory using `cd ..`
-- Listing directory contents with `ls`
-- Understanding where I am using `pwd`
-- Creating structured project folders
-- Basic Git workflow (add → commit → push)
+The objective was to understand how TLS works at the web server level, including certificate generation, secure listeners on port 443, and validating HTTPS using both command-line tools and a web browser.
 
-## What Confused Me
+This project builds directly on my previous Nginx installation and reverse proxy work.
 
--Jumping more than one directory at a time.
+---
 
--I currently visualise navigation as:
-- `cd ..`
-- `ls`
-- `cd <folder>`
+## What I Implemented
 
--When I tried using things like:
-- `cd ../..`
-- `cd ../../projects`
+- Generated a self-signed SSL certificate
+- Configured Nginx to listen on port 443 (HTTPS)
+- Served a static site securely from `/var/www/project08`
+- Enabled and validated HTTPS using `curl` and a web browser
+- Verified active listeners and enabled sites
+- Debugged initial port 443 connection issues
 
--It didn’t feel intuitive.
+---
 
--I realised this may be coming from a Windows GUI mindset, where I visually click folders rather than thinking in terms of a tree structure.
+## What I Validated
 
--Right now, I understand:
-- `cd ..` = go up one level
+- Nginx configuration syntax using `nginx -t`
+- Active listeners using `ss -tulpn`
+- HTTPS connectivity using `curl -k https://localhost`
+- Browser access with expected self-signed certificate warning
 
--But chaining multiple `..` feels abstract because I’m not fully visualising the directory tree in my head yet.
+---
 
--## What Clicked
+## Issues & Fixes
 
-- The filesystem is a tree.
-- `..` simply means “parent directory”.
-- Every directory has a parent except `/` (root).
-- Using `pwd` constantly helps anchor my position.
+Initially, HTTPS failed because Nginx was not listening on port 443.
 
--## Reflection
+Instead of assuming a firewall issue, I verified:
+- Enabled Nginx sites
+- Active listeners
+- Configuration syntax
 
--For now, I will continue using:
-- `cd ..`
-- `ls`
-- `pwd`
+Once the HTTPS site was enabled and Nginx reloaded, the service worked as expected.
 
--Even if it feels basic.
+---
 
--Understanding where I am in the filesystem is more important than moving quickly.
+## Key Takeaways
 
--Speed will come after spatial awareness.
+- HTTPS requires an explicit listener on port 443
+- Certificates must be correctly referenced in Nginx configs
+- Most HTTPS issues are configuration-related, not firewall-related
+- Self-signed certificates are ideal for lab environments
 
--This is foundational work.
