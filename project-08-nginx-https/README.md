@@ -1,6 +1,6 @@
 # 2026-01-27 – Project 08 – Nginx HTTPS (Self-Signed)
 
-##Overview
+## Overview
 
 In this project, I configured HTTPS on Nginx using a self-signed SSL certificate.
 
