@@ -1,5 +1,7 @@
 # 2026-01-27 – Project 08 – Nginx HTTPS (Self-Signed)
 
+---
+
 ## Overview
 
 In this project, I configured HTTPS on Nginx using a self-signed SSL certificate.
@@ -12,16 +14,18 @@ Project 06 – Nginx installation and firewall configuration
 
 Project 07 – Reverse proxy fundamentals
 
----
 
 ## Environment
 
 Host: MacBook
+
 OS: Ubuntu
+
 Web Server: Nginx
+
 Firewall: UFW (enabled)
 
- ---
+
 
 ## What I Implemented
 
@@ -41,7 +45,7 @@ Self-signed certificate created and stored at:
 
 /etc/nginx/ssl/
 
----
+
 
 ## Files:
 
@@ -49,7 +53,7 @@ project08.crt
 
 project08.key
 
----
+
 
 ## Web Root
 
@@ -57,7 +61,7 @@ Static site served from:
 
 /var/www/project08
 
----
+
 
 
 ## Files:
@@ -68,7 +72,6 @@ Permissions set for Nginx:
 
 sudo chown -R www-data:www-data /var/www/project08
 
----
 
 ## Nginx Configuration
 
@@ -104,7 +107,6 @@ Test HTTPS locally (ignoring certificate warning):
 
 curl -k https://localhost
 
----
 
 ## Result
 
@@ -130,7 +132,7 @@ Nginx configuration syntax
 
 This reinforced the importance of checking service state and ports before modifying firewall rules.
 
----
+-
 
 ## Key Takeaways
 
