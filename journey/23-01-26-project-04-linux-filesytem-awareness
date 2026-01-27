@@ -1,9 +1,9 @@
 # 22-01-26 — Project 03 — Linux Filesystem Awareness
 
 ## Summary
-Today I continued building Linux fundamentals with a focus on navigating the filesystem and understanding directory structure.
+-Today I continued building Linux fundamentals with a focus on navigating the filesystem and understanding directory structure.
 
-I created Project 03 and practiced moving around the terminal using `cd`, `ls`, and relative paths.
+-I created Project 03 and practiced moving around the terminal using `cd`, `ls`, and relative paths.
 
 ## What I Practiced
 - Navigating directories using `cd`
@@ -15,44 +15,44 @@ I created Project 03 and practiced moving around the terminal using `cd`, `ls`, 
 
 ## What Confused Me
 
-Jumping more than one directory at a time.
+-Jumping more than one directory at a time.
 
-I currently visualise navigation as:
+-I currently visualise navigation as:
 - `cd ..`
 - `ls`
 - `cd <folder>`
 
-When I tried using things like:
+-When I tried using things like:
 - `cd ../..`
 - `cd ../../projects`
 
-It didn’t feel intuitive.
+-It didn’t feel intuitive.
 
-I realised this may be coming from a Windows GUI mindset, where I visually click folders rather than thinking in terms of a tree structure.
+-I realised this may be coming from a Windows GUI mindset, where I visually click folders rather than thinking in terms of a tree structure.
 
-Right now, I understand:
+-Right now, I understand:
 - `cd ..` = go up one level
 
-But chaining multiple `..` feels abstract because I’m not fully visualising the directory tree in my head yet.
+-But chaining multiple `..` feels abstract because I’m not fully visualising the directory tree in my head yet.
 
-## What Clicked
+-## What Clicked
 
 - The filesystem is a tree.
 - `..` simply means “parent directory”.
 - Every directory has a parent except `/` (root).
 - Using `pwd` constantly helps anchor my position.
 
-## Reflection
+-## Reflection
 
-For now, I will continue using:
+-For now, I will continue using:
 - `cd ..`
 - `ls`
 - `pwd`
 
-Even if it feels basic.
+-Even if it feels basic.
 
-Understanding where I am in the filesystem is more important than moving quickly.
+-Understanding where I am in the filesystem is more important than moving quickly.
 
-Speed will come after spatial awareness.
+-Speed will come after spatial awareness.
 
-This is foundational work.
+-This is foundational work.
