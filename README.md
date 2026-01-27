@@ -56,6 +56,16 @@ Documenting deployments, networking, and DevOps learning
 - Verified DNS stability across WuTangLAN
 - Restructured project directory for clean repo hygiene
 
+  **2026-01-27**
+- Configured HTTPS on Nginx using a self-signed SSL certificate
+- Generated and installed SSL certificate under `/etc/nginx/ssl`
+- Configured Nginx to listen on port 443 (HTTPS)
+- Served a static site securely from `/var/www/project08`
+- Validated HTTPS using curl and web browser
+- Debugged port 443 issues by verifying active listeners and enabled sites
+
+
+
 	   
     ## Future Work / TODO
     - LAN + Tailscale container access testing
