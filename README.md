@@ -64,6 +64,22 @@ Documenting deployments, networking, and DevOps learning
 - Validated HTTPS using curl and web browser
 - Debugged port 443 issues by verifying active listeners and enabled sites
 
+ **2026-01-28**
+- Implemented permanent HTTP → HTTPS redirection using a 301 redirect
+- Hardened Nginx HTTPS configuration with security-focused headers
+- Reused existing self-signed SSL certificate for HTTPS enforcement
+- Added HTTP security headers:
+  - Strict-Transport-Security (HSTS)
+  - X-Content-Type-Options
+  - X-Frame-Options
+  - Referrer-Policy
+- Validated redirect and HTTPS behaviour using curl headers
+- Confirmed HTTPS access via web browser
+- Verified Nginx configuration integrity with nginx -t
+- Reloaded Nginx to apply hardened HTTPS configuration
+- Completed Project 09 – Nginx HTTPS Hardening
+
+
 
 
 	   
