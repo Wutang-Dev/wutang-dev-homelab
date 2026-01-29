@@ -80,6 +80,16 @@ Documenting deployments, networking, and DevOps learning
 - Completed Project 09 – Nginx HTTPS Hardening
 
 
+**2026-01-29**
+
+- Installed and validated Docker on Ubuntu
+- Built a Docker image for a Python HTTP application
+- Containerised a Python web app using a Dockerfile
+- Ran the container with explicit port mapping (8080 → 5000)
+- Verified container runtime using docker ps
+- Validated application access via browser and curl
+- Troubleshot and resolved Docker image naming issues
+- Completed Project 10 – Dockerised Python Application
 
 
 	   
