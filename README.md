@@ -1,4 +1,4 @@
-# WuTang Homelab (private Repo)
+# WuTang Homelab 
 ## Overview
 Private homelab project built using WSL2,Docker, and Tailscaile.
 Documenting deployments, networking, and DevOps learning
