@@ -91,14 +91,18 @@ Documenting deployments, networking, and DevOps learning
 - Troubleshot and resolved Docker image naming issues
 - Completed Project 10 – Dockerised Python Application
 
+**2026-02-27**
+
+- Deployed secondary Pi-hole instance for DNS redundancy
+- Exported configuration using Teleporter and imported to secondary node
+- Rebuilt gravity database (~78k domains)
+- Validated DNS behaviour using dig (normal resolution + ad-block confirmation)
+- Configured router for dual DNS failover
+- Simulated primary node outage to confirm resilience
+- Completed Project 11 – Dual Pi-hole DNS Redundancy
+
 
 	   
-    ## Future Work / TODO
-    - LAN + Tailscale container access testing
-    - Migrate pi-hole into docker
-    - Explore self-hoting media stak (Jellyfin, ect)
-    - Architecture diagrams + Topology notes
-    - Automation + SCripts + deployment workflow 
 
 
 
