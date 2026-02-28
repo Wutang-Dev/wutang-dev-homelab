@@ -20,7 +20,7 @@ This lab simulates a small business edge firewall architecture.
 ```
 Internet
     ↓
-Home Router (192.168.0.1)
+Home Router (192.168.0.x)
     ↓
 OPNsense WAN (192.168.0.x)
     ↓
