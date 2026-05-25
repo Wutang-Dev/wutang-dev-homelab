@@ -8,7 +8,7 @@ Built a compact homelab rack to centralise networking, DNS, media services, and 
 
 ## Rack Photo
 
-<img src="./screenshots/rack-front.jpg" alt="WutangLAN Rack">
+<img src="./screenshots/rack-front.png" alt="WutangLAN Rack">
 
 ---
 
